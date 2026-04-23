@@ -1,0 +1,35 @@
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+#screen {
+    border: 3px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100px;
+    width: 257px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 0 black;
+}
+
+#buttons1,#buttons2,#buttons3,#buttons4 {
+    display: flex;
+    justify-content: center;
+}
+
+.buts {
+    height: 30px;
+    box-shadow: 4px 4px 0 #dcd106;
+    width: 70px
+}
+
+.buts:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 #333;
+}
+
+
